@@ -139,7 +139,7 @@
 
 import React, { useEffect, useState, useRef } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { selectCartItemCount, toggleCart } from '../store/CartSlice';
+import { selectCartItemCount, toggleCart } from '../store/cartSlice';
 import { Link } from 'react-router-dom';
 import AccountMenu from "./AccountMenu";
 import {

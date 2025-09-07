@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaStar, FaClock, FaTicketAlt, FaTimes } from 'react-icons/fa';
 import { useDispatch, useSelector } from 'react-redux';
-import { addItem, setAuthPopupOpen, selectIsAuthenticated } from '../store/CartSlice';
+import { addItem, setAuthPopupOpen, selectIsAuthenticated } from '../store/cartSlice';
 import './ServiceCard.css';
 import BookingPopup from './BookingPopup';
 

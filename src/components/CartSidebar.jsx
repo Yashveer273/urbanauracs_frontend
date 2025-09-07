@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { removeItem, closeCart, selectCartTotal } from "../store/CartSlice";
+import { removeItem, closeCart, selectCartTotal } from "../store/cartSlice";
 import { addToHistory } from "../store/userSlice";
 import { FaTimes, FaTrash, FaCalendarAlt } from "react-icons/fa";
 
