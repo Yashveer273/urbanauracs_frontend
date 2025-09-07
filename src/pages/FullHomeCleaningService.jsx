@@ -4,7 +4,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useLocation } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectIsAuthPopupOpen, setAuthPopupOpen } from '../store/cartSlice'; // ✅ added setAuthPopupOpen
+import { selectIsAuthPopupOpen, setAuthPopupOpen } from '../store/cartSlice'; 
 import BannerSlider from '../components/BannerSlider';
 import Navbar from '../components/Navbar';
 import FooterWithCarousel from '../components/FooterWithCarousel';
