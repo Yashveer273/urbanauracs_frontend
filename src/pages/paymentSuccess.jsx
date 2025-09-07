@@ -9,7 +9,7 @@ import { CheckCircle } from "lucide-react"; // Success icon
 import { AiOutlineLoading3Quarters, AiOutlineCloseCircle } from "react-icons/ai"; // Loading & error icons
 
 import { clearOrder } from "../store/orderSlices";
-import { closeCart, clearCart } from "../store/cartSlice";
+import { closeCart, clearCart } from "../store/cartSlice"; //jj
 
 const PaymentSuccess = () => {
   const { id, amount } = useParams();
